@@ -1,61 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meu html</title>
+    <title>Document</title>
+
     <style>
-        .vermelho {
-            background-color: red;
+        body {
+            font-family: sans-serif;
+        }
+        label {
+            cursor: pointer;
         }
 
-
+      
     </style>
 </head>
 
 <body>
-    <h1>MEU TITULO AQUI</h1>
-    <P class="vermelho">Lorem ipsum dolor <img src="imagens/bichinho.jpg" alt="imagem de um bichinho" width="70" height="70">sit amet
-        consectetur, adipisicing elit. Pariatur <a href="https://developer.mozilla.org/en-US/" target="_blank"></a> vel
-        hic culpa odio
-        praesentium similique. Eius, velit distinctio neque cum recusandae voluptas saepe, vel laboriosam debitis sint
-        inventore, ipsam sunt?</P>
-
-    <hr>
-
-    <p><q cite="https://developer.mozilla.org/en-US/" class="vermelho">The CSS Custom Highlight API provides a mechanism for styling
-            arbitrary text ranges on a document by using JavaScript</q>
-
-        ipsum, dolor sit amet consectetur <a href="https://developer.mozilla.org/en-US/" target="_blank" class="vermelho"></a>
-        adipisicing elit. Natus facilis, fugit et, ex sit in ullam labore maiores tempore molestiae neque alias tenetur.
-        Atque, nemo! A quam pariatur officia dignissimos?</p>
-
-
-    <p></p>
-
-    <blockquote cite="https://duckduckgo.com/?q=DuckDuckGo&ia=chat"> -DuckDuckGo AI Chat. Aqui estarei fzendo um bloco
-        de citação</blockquote>
-
-    <pre>
-            h1 {
-            font-size: 24px;
-            color: red;
-          }
-             p {
-            font-size: 16px;
-            color: blue;
-          }
-          </code>
-        </pre>
-
-       <p>
-        <span class="vermelho">ola</span><br>
-        <span>ola</span><br>
-        <span>ola</span><br>
-        <span>ola</span><br>
-        <span>ola</span><br>
+<form action="#" method="get" target="_blank" autocomplete="off">
+ <fieldset>
+    <legend>formulario legenda</legend>
+    <p>
+        
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" value="" required>
+        
     </p>
+
+    <p>
+        
+        <label for="dev">Sou um dev:</label>
+        <input type="checkbox" id="dev" value="sim" checked>
+        
+    </p>
+
+    <p>
+        Gênero: <br>
+        <label for="Feminino">feminino:</label>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+
+        <label for="Masculino">Masculino:</label>
+        <input type="radio" id="Masculino" name="genero" value="Masculino">
+      
+        <label for="Outro">Outro:</label>
+        <input type="radio" id="Outro" name="genero" value="Outro">
+
+    </p>
+
+    <P>
+        <label for="">Date</label>
+        <input type="date" name="date" id="date" value="2020-04-20" required>
+    </P>
+
+    
+    <P>
+        <label for="datetime">Date</label>
+        <input type="datetime-local" name="datetime" id="datetime" value="2020-04-20T20:00" required>
+    </P>
+
+    <P>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="ex.: email@email.com">
+    </P>
+
+    <P>
+        <label for="file">Sua foto</label>
+        <input type="file" name="file" id="file" accept=".png, .svg, .jpg,image/*">
+    </P>
+
+    <P>
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" required>
+    </P>
+        
+    <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
+    </p>
+
+   
+    
+ </fieldset>
+</form>
 
 </body>
 
