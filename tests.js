@@ -5,4 +5,3 @@ console.log('Maria teve 1 filho com João em 2015.')
 console.log('O filho de joão se chama Eduardo.')
 
 
-adadad
