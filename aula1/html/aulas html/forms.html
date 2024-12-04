@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        label {
+            cursor: pointer;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+<form action="#" method="get" target="_blank" autocomplete="off">
+ <fieldset>
+    <legend>formulario legenda</legend>
+    <p>
+        
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" value="" required>
+        
+    </p>
+
+    <p>
+        
+        <label for="dev">Sou um dev:</label>
+        <input type="checkbox" id="dev" value="sim" checked>
+        
+    </p>
+
+    <p>
+        Gênero: <br>
+        <label for="Feminino">feminino:</label>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+
+        <label for="Masculino">Masculino:</label>
+        <input type="radio" id="Masculino" name="genero" value="Masculino">
+      
+        <label for="Outro">Outro:</label>
+        <input type="radio" id="Outro" name="genero" value="Outro">
+
+    </p>
+
+    <P>
+        <label for="">Date</label>
+        <input type="date" name="date" id="date" value="2020-04-20" required>
+    </P>
+
+    
+    <P>
+        <label for="datetime">Date</label>
+        <input type="datetime-local" name="datetime" id="datetime" value="2020-04-20T20:00" required>
+    </P>
+
+    <P>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="ex.: email@email.com">
+    </P>
+
+    <P>
+        <label for="file">Sua foto</label>
+        <input type="file" name="file" id="file" accept=".png, .svg, .jpg,image/*">
+    </P>
+
+    <P>
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" required>
+    </P>
+        
+    <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
+    </p>
+
+   
+    
+ </fieldset>
+</form>
+
+</body>
+
+</html>
