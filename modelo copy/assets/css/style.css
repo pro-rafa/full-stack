@@ -24,19 +24,14 @@ body {
 
 
 .container {
-    display: flex;
+    display: block;
+    
     max-width: 640px;
     margin: 50px auto;
     background: #fff;
     padding: 20px;
 }
 
-div .imc {
-    font-size: 6rem;
-    margin-bottom: 5rem;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
 
 
 form input,
@@ -76,10 +71,18 @@ form button:active {
     background: red;
 }
 
-.form123 {
+.formulario {
     max-width: 640px;
     margin: 50px auto;
     background: #fff;
     padding: 20px;
 }
 
+.paragrafo-resultado, .bad {
+    background: blue;
+    padding: 10px 20px;
+}  
+   
+.bad {
+    background: red;
+}
